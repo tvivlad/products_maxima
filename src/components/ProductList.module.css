@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+}
+.cardsList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardsList__loadBtn {
+  margin: 15px;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #bbb;
+  border: none;
+}
+
+.loadBtn__active {
+  color: #fff;
+}
+
+.loadBtn:hover {
+  color: #fff;
+}

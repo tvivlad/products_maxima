@@ -1,0 +1,69 @@
+.page__title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.page__info {
+  display: flex;
+  justify-content: center;
+  column-gap: 80px;
+}
+
+.page__info__photo {
+  width: 30%;
+  min-width: 500px;
+  padding: 40px;
+  box-shadow: 5px 5px 8px #ccc, -2px -2px 4px #ccc;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  width: 90%;
+}
+
+.page__info__details {
+  width: 30%;
+  min-width: 500px;
+  padding: 40px;
+  background-color: #eef6ff;
+  box-shadow: 5px 5px 8px #ccc, -2px -2px 4px #ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.info__category {
+  font-size: 24px;
+}
+
+.info__description {
+  font-size: 24px;
+}
+
+.info__titles {
+  font-weight: 700;
+}
+
+.info__price {
+  font-size: 24px;
+}
+
+.info__rate {
+  font-size: 24px;
+}
+
+.info__count {
+  font-size: 24px;
+}
+
+.info_editbtn {
+  margin: 10px 0px;
+  font-size: 20px;
+}

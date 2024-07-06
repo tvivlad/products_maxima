@@ -1,0 +1,60 @@
+.modal__backdrop {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__window {
+  width: 600px;
+  /* height: 500px; */
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.modal__title {
+  text-align: center;
+}
+
+.addForm__input {
+  margin: 10px;
+  font-size: 22px;
+}
+
+.addForm__textarea {
+  margin: 10px;
+  font-size: 22px;
+}
+
+.addForm__select {
+  margin: 10px;
+  font-size: 18px;
+}
+
+.addForm__buttons {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 20px;
+}
+
+.addForm__buttons__addBtn {
+  font-size: 18px;
+}
+
+.addForm__buttons_cancelBtn {
+  font-size: 18px;
+}
+
+.addForm__checkBox {
+  font-size: 22px;
+  margin: 20px 10px;
+}
+
+.checkBox__textSize {
+  font-size: 18px;
+}

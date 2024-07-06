@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #007bff;
+  width: 100%;
+  box-shadow: 7px 8px 15px #ccc;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+  padding: 0px 50px;
+}
+.navbar__link {
+  color: #fff;
+  font-size: 20px;
+  line-height: 50px;
+  padding: 0px 30px;
+  text-decoration: none;
+}
+
+.navbar__link:hover {
+  background-color: #439eff;
+}
+
+.link__pending {
+  background-color: #007bff;
+}
+
+.link__active {
+  background-color: #439eff;
+}

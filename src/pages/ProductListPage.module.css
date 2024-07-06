@@ -1,0 +1,11 @@
+.addBtn {
+  font-size: 36px;
+  padding: 24px 56px;
+  border: none;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: #fff;
+  position: fixed;
+  bottom: 70px;
+  right: 100px;
+}

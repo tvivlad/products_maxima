@@ -1,0 +1,40 @@
+.editpage {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px;
+}
+
+.editpage__photo {
+  width: 30%;
+  min-width: 500px;
+  background-color: #eef6ff;
+  height: 500px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo {
+  height: 90%;
+}
+
+.editpage__form {
+  width: 30%;
+  min-width: 500px;
+  background-color: #eef6ff;
+  display: flex;
+}
+
+.form {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  background-color: #eef6ff;
+}
+
+.title {
+  text-align: center;
+}
